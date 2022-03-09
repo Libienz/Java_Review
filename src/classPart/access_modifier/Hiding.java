@@ -1,4 +1,4 @@
-package classPart;
+package classPart.access_modifier;
 
 public class Hiding {
     public static void main(String[] args) {

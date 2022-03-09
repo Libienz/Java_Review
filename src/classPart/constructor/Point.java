@@ -1,4 +1,4 @@
-package classPart;
+package classPart.constructor;
 
 public class Point {
     int x;

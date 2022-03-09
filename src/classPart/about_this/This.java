@@ -1,4 +1,11 @@
-package classPart;
+package classPart.about_this;
+
+class Birthday {
+    int day;
+    int month;
+    int year;
+}
+
 
 public class This {
     public static void main() {

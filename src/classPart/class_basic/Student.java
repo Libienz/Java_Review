@@ -1,4 +1,4 @@
-package classPart;
+package classPart.class_basic;
 
 public class Student { // 퍼블릭 클래스와 자바 파일의 이름은 같아야 함 여러개의
                        // 여러개의 클래스 한 파일 안에 선언할 수 있지만 퍼블릭은 하나
@@ -47,7 +47,7 @@ public class Student { // 퍼블릭 클래스와 자바 파일의 이름은 같�
         this.grade = grade;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //entry point : jvm이 호출함
         Student studentLee = new Student(); // new는 생성자 studentLee는 참조변수!
         //studentLee가 힙메모리에 생성
         //studentLee.을 이용해서 참조할 수 있는 것 열람 가능
@@ -76,5 +76,10 @@ public class Student { // 퍼블릭 클래스와 자바 파일의 이름은 같�
         // public 은 다 오픈
         // private은 같은 파일이어도 클래스내에서만 사용가능
         // protected 는 상속관계에서
+
+        //package는 소스의 묶음
+//dao 데이터베이스와 연결하는
+//유지보수에 대한 hierachy
+//같은 이름의 클래스를 구별하기도 함 classPart.StudentTest
     }
 }

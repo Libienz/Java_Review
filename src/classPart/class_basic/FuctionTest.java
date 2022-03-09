@@ -1,4 +1,4 @@
-package classPart;
+package classPart.class_basic;
 
 public class FuctionTest {
     public static void main(String[] args) {
