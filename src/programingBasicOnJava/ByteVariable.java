@@ -1,0 +1,12 @@
+package programingBasicOnJava;
+
+// byte <-- 정수형 1byte
+public class ByteVariable {
+    public static void main(String[] args) {
+        byte bData = -128;
+        System.out.println(bData);
+        byte bData2 = 127;
+        System.out.println(bData2);
+
+    }
+}
