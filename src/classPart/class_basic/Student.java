@@ -4,6 +4,8 @@ public class Student { // 퍼블릭 클래스와 자바 파일의 이름은 같�
                        // 여러개의 클래스 한 파일 안에 선언할 수 있지만 퍼블릭은 하나
                        // 모든 자바의 코드는 클래스 안에
                         // 멤버 변수 properties
+
+
     //오호라 안드로이드 자체가 거대한 프레임워크다.
     int studentID;
     String name; // String jdk에서 제공하는 클래스 문자열
@@ -77,7 +79,7 @@ public class Student { // 퍼블릭 클래스와 자바 파일의 이름은 같�
         // private은 같은 파일이어도 클래스내에서만 사용가능
         // protected 는 상속관계에서
 
-        //package는 소스의 묶음
+        // package는 소스의 묶음
 //dao 데이터베이스와 연결하는
 //유지보수에 대한 hierachy
 //같은 이름의 클래스를 구별하기도 함 classPart.StudentTest
