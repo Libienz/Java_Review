@@ -7,6 +7,7 @@ class Animal{
         System.out.println("동물이 움직입니다.");
     }
 }
+
 class Human extends Animal {
     @Override
     public void move() {

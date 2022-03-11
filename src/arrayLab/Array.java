@@ -12,6 +12,9 @@ public class Array {
         numbers[1] = 2;
         numbers[2] = 3;
 
+
+
+
         //초기화 되지 않은 번지
         //int -> 0 double 0.0 class null
         for (int i=0; i<numbers.length; i++) {

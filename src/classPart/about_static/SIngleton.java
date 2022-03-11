@@ -20,5 +20,7 @@ public class SIngleton {
         System.out.println(c2);
 
 
+
+
     }
 }

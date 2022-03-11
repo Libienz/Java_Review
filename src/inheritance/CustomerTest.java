@@ -22,14 +22,20 @@ public class CustomerTest {
         Customer customerKim = new GoldCustomer(10011,"김박사");
         Customer customerPark = new VIPCustomer(10012,"박부상",100);
 
+
+
+
+
         customerList.add(customerLee);
         customerList.add(customerKim);
         customerList.add(customerPark);
 
 
+
         for (Customer c : customerList) {
             System.out.println(c.showCustomerInfo());
         }
+
 
 
 
