@@ -3,12 +3,14 @@ package inheritance;
 import javax.print.attribute.standard.PrinterMoreInfoManufacturer;
 
 class Animal{
+    private int test = 0;
     public void move() {
         System.out.println("동물이 움직입니다.");
     }
 }
 
 class Human extends Animal {
+    //test = 5;
     @Override
     public void move() {
         System.out.println("사람이 두발로 걷습니다.");
